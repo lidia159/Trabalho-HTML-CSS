@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="">
+    <title>Formulário</title>
+
+</head>
+<body>
+    <div>
+        <h1 id="título">Deixe um comentário</h1>
+    </div>
+
+
+
+
+    <form>
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <Input type="text" nome="nome" id="nome" required>
+                
+            </div>
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <Input type="text" nome="sobrenome" id="sobrenome" required>
+               
+            </div>
+            <div class="campo">
+                <label for="website"><strong>Website:</strong></label>
+                <input type="website" nome="website" id="website" required>
+            </div>
+            
+                <div class="campo">
+                    <label for="comentário"><strong>Comentário:</strong></label><br>
+                    <textarea row="8" style="width: 26em;" id="Comentário" nome="comentário"></textarea>
+                </div>
+            
+               
+                <h6>Observação: Seu comentário será publicado após passar pelo moderador</h6><br>
+
+                <button class="botao" type="submit">Enviar Comentário</button>
+
+        
+    </form>
+</body>
+</html>

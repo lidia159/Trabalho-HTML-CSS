@@ -1,0 +1,73 @@
+*{
+    margin: 1;
+    padding: 0;
+
+}
+#título{
+    font-family: sans-serif;
+    color:rgb(67, 6, 124);
+    margin-left: 10%;
+}
+
+
+body{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: blueviolet;
+    margin-left: 36%;
+    margin-top: 2%;
+    
+}
+
+input, select, textarea, button {
+    border: 1px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.1em;
+    color: rgb(52, 3, 99);
+    display: block;
+}
+
+
+.campo input[type="text"], .campo input[type="website"] , .campo select {
+    padding: 0.2em;
+    border: 1px solid rgb(52, 3, 99);
+    box-shadow: 2px 2px 2px rgb(173, 15, 173);
+    display: block;
+}
+
+.campo textarea {
+    padding: 5em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgb(146, 12, 139);
+    display: block;
+}
+
+.botao{
+    font-size: 1.2em;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(24, 19, 29);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: rgb(205, 58, 235);
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+}
+
+
