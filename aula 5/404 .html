@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="">
+    <title>Formulário</title>
+    
+
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <fieldset class="corpo">
+    <div>
+    <H1 id="título">Formulário de Contato</H1>
+    
+</div>
+
+<form id="form">
+    <fieldset class="corpo1">
+    <div class="campo">
+        <label for="nome"><strong>Nome:</strong></label>
+        <Input type="text" id="name" name="name" autocomplete="name" placeholder="Digite seu Nome..." required>
+        
+    </div>
+    <div class="campo">
+        <label for="email"><strong>E-mail:</strong></label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="Digite seu e-mail..." required>
+       
+    </div>
+    <div class="campo">
+        <label for="texto"><strong>Texto:</strong></label><br>
+         <textarea name="texto" id="texto"></textarea>
+        
+    </div>
+
+    <button class="botao" type="submit">Enviar</button>
+</fieldset>
+</fieldset>
+    </form>
+
+
+</body>
+</html>
